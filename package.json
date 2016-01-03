@@ -1,0 +1,18 @@
+{
+  "name": "vox-router",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vox-router.js",
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13"
+  },
+  "author": "romeobravo",
+  "license": "MIT"
+}
