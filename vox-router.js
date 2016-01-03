@@ -36,16 +36,16 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _Node = require('./Node');
+var _node = require('./node');
 
-var _Node2 = _interopRequireDefault(_Node);
+var _node2 = _interopRequireDefault(_node);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function parseRoutes(edge, original, parent) {
-  var node = new _Node2.default({
+  var node = new _node2.default({
     original: original,
     parent: parent,
     name: edge
