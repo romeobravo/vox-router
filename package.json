@@ -2,7 +2,7 @@
   "name": "vox-router",
   "version": "1.0.0",
   "description": "",
-  "main": "vox-router.js",
+  "main": "lib/vox-router.js",
   "author": "romeobravo",
   "license": "MIT",
   "devDependencies": {
@@ -10,7 +10,7 @@
     "babel-preset-es2015": "^6.3.13"
   },
   "scripts": {
-    "build": "babel lib --out-file vox-router.js",
-    "prepublish": "babel lib --out-file vox-router.js"
+    "build": "babel src --out-dir lib",
+    "prepublish": "babel src --out-dir lib"
   }
 }
